@@ -8,4 +8,4 @@ SUMMARY="Drink Water !";
 MESSAGE="Keeping yourself hydrated has its advantages :)"
 
 # Send desktop notification;
-$NOTIFIER -u normal -t 1000 " $SUMMARY " " $MESSAGE ";
+$NOTIFIER -u normal -t 10000 " $SUMMARY " " $MESSAGE ";
