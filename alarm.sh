@@ -13,7 +13,7 @@ MINUTES=$(date +"%M");
 HOURS=${HOURS##0};
 MINUTES=${MINUTES##0};
 SLOT="";
-/bin/echo "Hours $HOURS MINUTES $MINUTES";
+
 if (( $MINUTES >= 30 )); then
     SLOT="First";
     MESSAGE="$HOURS:00 - $HOURS:30"
